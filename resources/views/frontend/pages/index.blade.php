@@ -3,15 +3,17 @@
 
 @section('content')
 
-<div class="hero-wrap" style="background-image: url('{{ asset('images/bg_7.jpg') }}');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap" style="background-image: url('{{ asset('images/bg_main.jpg') }}');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
     <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
       <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-        <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Doing Nothing is Not An Option of Our Life</h1>
+        <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Protecting & saving most threatened species</h1>
         <!-- <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Created by <a href="#">Colorlib.com</a></p> -->
 
-        <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="https://vimeo.com/45830194" class="btn btn-white btn-outline-white px-4 py-3 popup-vimeo"><span class="icon-play mr-2"></span>Watch Video</a></p>
+        <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+          <a href="/donate" class="btn btn-warning btn-outline-white px-4 py-3 popup-vimeo">Donate</a>
+        </p>
       </div>
     </div>
   </div>
@@ -23,9 +25,9 @@
 			<div class="col-md-5 d-flex justify-content-center counter-wrap ftco-animate">
         <div class="block-18 color-1 align-items-stretch">
           <div class="text">
-          	<span>Served Over</span>
-            <strong class="number" data-number="1432805">0</strong>
-            <span>Children in 190 countries in the world</span>
+          	<span>Saving animals</span>
+            <strong class="number" data-number="132805">0</strong>
+            <span>Animals in 190 countries in the world</span>
           </div>
         </div>
       </div>
@@ -33,7 +35,7 @@
         <div class="block-18 color-2 align-items-stretch">
           <div class="text">
           	<h3 class="mb-4">Donate Money</h3>
-          	<p>Even the all-powerful Pointing has no control about the blind texts.</p>
+          	<p>Your gift doubled to save animals</p>
           	<p><a href="#" class="btn btn-white px-3 py-2 mt-2">Donate Now</a></p>
           </div>
         </div>
@@ -42,7 +44,7 @@
         <div class="block-18 color-3 align-items-stretch">
           <div class="text">
           	<h3 class="mb-4">Be a Volunteer</h3>
-          	<p>Even the all-powerful Pointing has no control about the blind texts.</p>
+          	<p>Become a part of our big family</p>
           	<p><a href="#" class="btn btn-white px-3 py-2 mt-2">Be A Volunteer</a></p>
           </div>
         </div>
@@ -59,7 +61,7 @@
           <div class="icon d-flex mb-3"><span class="flaticon-donation-1"></span></div>
           <div class="media-body pl-4">
             <h3 class="heading">Make Donation</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            <p>Donate some money and help protecting and saving animals all over the world.</p>
           </div>
         </div>      
       </div>
@@ -68,7 +70,7 @@
           <div class="icon d-flex mb-3"><span class="flaticon-charity"></span></div>
           <div class="media-body pl-4">
             <h3 class="heading">Become A Volunteer</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            <p>We are big family. We have a great mission. Join us and make a difference.</p>
           </div>
         </div>      
       </div>
@@ -77,7 +79,7 @@
           <div class="icon d-flex mb-3"><span class="flaticon-donation"></span></div>
           <div class="media-body pl-4">
             <h3 class="heading">Sponsorship</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            <p>We are looking for sponsors for our projects and causes.</p>
           </div>
         </div>    
       </div>
@@ -90,8 +92,8 @@
 	<div class="container-fluid">
 		<div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-5 heading-section ftco-animate text-center">
-        <h2 class="mb-4">Our Causes</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <h2 class="mb-4">Our Projects</h2>
+        <p>You have the power to save World's Wildlife. It takes just a couple of minutes to support a project.</p>
       </div>
     </div>
 		<div class="row">
@@ -99,85 +101,43 @@
 				<div class="carousel-cause owl-carousel">
     				<div class="item">
     					<div class="cause-entry">
-	    					<a href="#" class="img" style="background-image: url(images/cause-1.jpg);"></a>
+	    					<a href="#" class="img" style="background-image: url(images/causes-horses.jpg);"></a>
 	    					<div class="text p-3 p-md-4">
-	    						<h3><a href="#">Clean water for the urban area</a></h3>
-	    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-	    						<span class="donation-time mb-3 d-block">Last donation 1w ago</span>
+	    						<h3><a href="#">Share your warmth with animals</a></h3>
+	    						<p>Moving to a new, undeveloped area sounds like a verdict for 70 shorthair, sick and elderly horses. They vitally need a warm room for the winter!</p>
+	    						<span class="donation-time mb-3 d-block">Last donation 3d ago</span>
 	                <div class="progress custom-progress-success">
 	                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
 	                </div>
-	                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+	                <!-- <span class="fund-raised d-block">$12,000 raised of $30,000</span> -->
 	    					</div>
 	    				</div>
     				</div>
     				<div class="item">
     					<div class="cause-entry">
-	    					<a href="#" class="img" style="background-image: url(images/cause-2.jpg);"></a>
+	    					<a href="#" class="img" style="background-image: url(images/causes-elephants.jpg);"></a>
 	    					<div class="text p-3 p-md-4">
-	    						<h3><a href="#">Clean water for the urban area</a></h3>
-	    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+	    						<h3><a href="#">Keep elephants from wildlife traffickers</a></h3>
+	    						<p>Poachers kill as many as 35,000 elephants each year for their ivory tusks and with the current poaching rates causing an 8 percent population decline each year, this iconic species could be wiped out in our lifetime.</p>
 	    						<span class="donation-time mb-3 d-block">Last donation 1w ago</span>
 	                <div class="progress custom-progress-success">
 	                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
 	                </div>
-	                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+	                <!-- <span class="fund-raised d-block">$12,000 raised of $30,000</span> -->
 	    					</div>
 	    				</div>
     				</div>
     				<div class="item">
     					<div class="cause-entry">
-	    					<a href="#" class="img" style="background-image: url(images/cause-3.jpg);"></a>
+	    					<a href="#" class="img" style="background-image: url(images/causes-healing.jpg);"></a>
 	    					<div class="text p-3 p-md-4">
-	    						<h3><a href="#">Clean water for the urban area</a></h3>
-	    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+	    						<h3><a href="#">Project HEALING</a></h3>
+	    						<p>The goal of the program is to provide homeless animals with qualified veterinary care.</p>
 	    						<span class="donation-time mb-3 d-block">Last donation 1w ago</span>
 	                <div class="progress custom-progress-success">
 	                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
 	                </div>
-	                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
-	    					</div>
-	    				</div>
-    				</div>
-    				<div class="item">
-    					<div class="cause-entry">
-	    					<a href="#" class="img" style="background-image: url(images/cause-4.jpg);"></a>
-	    					<div class="text p-3 p-md-4">
-	    						<h3><a href="#">Clean water for the urban area</a></h3>
-	    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-	    						<span class="donation-time mb-3 d-block">Last donation 1w ago</span>
-	                <div class="progress custom-progress-success">
-	                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-	                </div>
-	                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
-	    					</div>
-	    				</div>
-    				</div>
-    				<div class="item">
-    					<div class="cause-entry">
-	    					<a href="#" class="img" style="background-image: url(images/cause-5.jpg);"></a>
-	    					<div class="text p-3 p-md-4">
-	    						<h3><a href="#">Clean water for the urban area</a></h3>
-	    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-	    						<span class="donation-time mb-3 d-block">Last donation 1w ago</span>
-	                <div class="progress custom-progress-success">
-	                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-	                </div>
-	                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
-	    					</div>
-	    				</div>
-    				</div>
-    				<div class="item">
-    					<div class="cause-entry">
-	    					<a href="#" class="img" style="background-image: url(images/cause-6.jpg);"></a>
-	    					<div class="text p-3 p-md-4">
-	    						<h3><a href="#">Clean water for the urban area</a></h3>
-	    						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-	    						<span class="donation-time mb-3 d-block">Last donation 1w ago</span>
-	                <div class="progress custom-progress-success">
-	                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-	                </div>
-	                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+	                <!-- <span class="fund-raised d-block">$12,000 raised of $30,000</span> -->
 	    					</div>
 	    				</div>
     				</div>
@@ -192,7 +152,7 @@
   	<div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section ftco-animate text-center">
         <h2 class="mb-4">Latest Donations</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <p>Here we present our donators from all over the world. Thank you!</p>
       </div>
     </div>
     <div class="row">
@@ -202,9 +162,9 @@
     				<div class="img" style="background-image: url(images/person_1.jpg);"></div>
     				<div class="info ml-4">
     					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-    					<span class="position">Donated Just now</span>
+    					<span class="position">Donated just now</span>
     					<div class="text">
-	        				<p>Donated <span>$300</span> for <a href="#">Children Needs Food</a></p>
+	        				<p>Donated <span>$300</span></p>
 	        			</div>
     				</div>
     			</div>
@@ -216,9 +176,9 @@
     				<div class="img" style="background-image: url(images/person_2.jpg);"></div>
     				<div class="info ml-4">
     					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-    					<span class="position">Donated Just now</span>
+    					<span class="position">Donated 1 day ago</span>
     					<div class="text">
-	        				<p>Donated <span>$150</span> for <a href="#">Children Needs Food</a></p>
+	        				<p>Donated <span>$150</span></p>
 	        			</div>
     				</div>
     			</div>
@@ -230,9 +190,9 @@
     				<div class="img" style="background-image: url(images/person_3.jpg);"></div>
     				<div class="info ml-4">
     					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-    					<span class="position">Donated Just now</span>
+    					<span class="position">Donated 1 week ago</span>
     					<div class="text">
-	        				<p>Donated <span>$250</span> for <a href="#">Children Needs Food</a></p>
+	        				<p>Donated <span>$250</span></p>
 	        			</div>
     				</div>
     			</div>
@@ -294,52 +254,52 @@
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section ftco-animate text-center">
         <h2 class="mb-4">Recent from blog</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <p>News, interesting fact, captivating stories and much more in Animal World.</p>
       </div>
     </div>
     <div class="row d-flex">
       <div class="col-md-4 d-flex ftco-animate">
       	<div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+          <a href="blog-single.html" class="block-20" style="background-image: url('images/news-1.jpg');">
           </a>
           <div class="text p-4 d-block">
           	<div class="meta mb-3">
-              <div><a href="#">Sept 10, 2018</a></div>
+              <div><a href="#">Sept 20, 2019</a></div>
               <div><a href="#">Admin</a></div>
               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
             </div>
-            <h3 class="heading mt-3"><a href="#">Hurricane Irma has devastated Florida</a></h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <h3 class="heading mt-3"><a href="#">Most Humane Country</a></h3>
+            <p>Luxembourg may become the most humane country with respect to animals in the world.</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 d-flex ftco-animate">
       	<div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+          <a href="blog-single.html" class="block-20" style="background-image: url('images/dog-2.jpg');">
           </a>
           <div class="text p-4 d-block">
           	<div class="meta mb-3">
-              <div><a href="#">Sept 10, 2018</a></div>
+              <div><a href="#">Sept 18, 2019</a></div>
               <div><a href="#">Admin</a></div>
               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
             </div>
-            <h3 class="heading mt-3"><a href="#">Hurricane Irma has devastated Florida</a></h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <h3 class="heading mt-3"><a href="#">Dog knows your face!</a></h3>
+            <p>Scientists: Dogs can distinguish faces no worse than humans.</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 d-flex ftco-animate">
       	<div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+          <a href="blog-single.html" class="block-20" style="background-image: url('images/dog-3.jpg');">
           </a>
           <div class="text p-4 d-block">
           	<div class="meta mb-3">
-              <div><a href="#">Sept 10, 2018</a></div>
+              <div><a href="#">Sept 11, 2019</a></div>
               <div><a href="#">Admin</a></div>
               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
             </div>
-            <h3 class="heading mt-3"><a href="#">Hurricane Irma has devastated Florida</a></h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <h3 class="heading mt-3"><a href="#">Dogtectives</a></h3>
+            <p>Scientists: Dogs distinguish between good and evil faces</p>
           </div>
         </div>
       </div>
@@ -361,18 +321,25 @@
           </a>
           <div class="text p-4 d-block">
           	<div class="meta mb-3">
-              <div><a href="#">Sep. 10, 2018</a></div>
+              <div><a href="#">Oct. 4, 2019</a></div>
               <div><a href="#">Admin</a></div>
               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
             </div>
-            <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
-            <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+            <h3 class="heading mb-4"><a href="#">World Animal Day</a></h3>
+            <p class="time-loc">
+              <!-- <span class="mr-2">
+                <i class="icon-clock-o"></i> 10:30AM-03:30PM
+              </span> 
+              <span>
+                <i class="icon-map-o"></i> Venue Main Campus
+              </span> -->
+            </p>
+            <p>World Animal Day is a social movement charged with the Mission of raising the status of animals in order to improve welfare standards around the globe</p>
+            <p><!-- <a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a> --></p>
           </div>
         </div>
       </div>
-      <div class="col-md-4 d-flex ftco-animate">
+      <!-- <div class="col-md-4 d-flex ftco-animate">
       	<div class="blog-entry align-self-stretch">
           <a href="blog-single.html" class="block-20" style="background-image: url('images/event-2.jpg');">
           </a>
@@ -399,13 +366,13 @@
               <div><a href="#">Admin</a></div>
               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
             </div>
-            <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
+            <h3 class="heading mb-4"><a href="/donate">World Wide Donation</a></h3>
             <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
