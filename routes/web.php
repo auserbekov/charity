@@ -19,3 +19,6 @@ Route::get('/blog', 'PagesController@blog');
 Route::get('/gallery', 'PagesController@gallery');
 Route::get('/events', 'PagesController@events');
 Route::get('/contacts', 'PagesController@contacts');
+
+Route::get('/success', 'PagesController@success');
+Route::get('/failure', 'PagesController@failure');

@@ -45,4 +45,14 @@ class PagesController extends Controller
     {
     	return view('frontend.pages.contacts');
     }
+
+    function success()
+    {
+        return view('frontend.pages.success');
+    }
+
+    function failure()
+    {
+        return view('frontend.pages.failure');
+    }
 }
