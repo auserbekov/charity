@@ -157,5 +157,10 @@
   <script src="{{ asset('js/google-map.js') }}"></script>
   <script src="{{ asset('js/main.js') }}"></script>
     
+  @yield('scripts_import')  
+  <script type="text/javascript">
+    @yield('scripts_body')
+  </script>
+
   </body>
 </html>

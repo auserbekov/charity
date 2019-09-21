@@ -67,3 +67,11 @@
     </section>
     
 @endsection
+
+
+
+@section('scripts_import')
+
+<script type="text/javascript" src="https://auth.robokassa.kz/Merchant/PaymentForm/FormFLS.js?MerchantLogin=bibarskz&InvoiceID=0&Culture=ru&Encoding=utf-8&Description=Help%20us%20in%20our%20mission&DefaultSum=500&SignatureValue=8a58ea955f64f9872586526c808b70ac"></script>
+
+@endsection
