@@ -3,7 +3,7 @@
 
 @section('content')
 
-<div class="hero-wrap" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap" style="background-image: url('images/horses.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -27,13 +27,13 @@
             <p><span>Address:</span> SKO, Kazakhstan</p>
           </div>
           <div class="col-md-3">
-            <p><span>Phone:</span> <a href="tel://">+ 1235 2355 98</a></p>
+            <!-- <p><span>Phone:</span> <a href="tel://">+ 7 ...</a></p> -->
           </div>
           <div class="col-md-3">
             <p><span>Email:</span> <a href="mailto:info@bibars.kz">info@bibars.kz</a></p>
           </div>
           <div class="col-md-3">
-            <p><span>Website</span> <a href="#">bibars.kz</a></p>
+            <p><span>Website</span> <a href="/">bibars.kz</a></p>
           </div>
         </div>
         <div class="row block-9">
@@ -59,7 +59,7 @@
           
           </div>
 
-          <div class="col-md-6" id="map"></div>
+          <!-- <div class="col-md-6" id="map"></div> -->
         </div>
       </div>
     </section>
