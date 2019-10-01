@@ -55,4 +55,20 @@ class PagesController extends Controller
     {
         return view('frontend.pages.failure');
     }
+
+    function privacy()
+    {
+        return view('frontend.pages.privacy');
+    }
+
+    function donationOffer()
+    {
+        return view('frontend.pages.donation-offer');
+    }
+
+    function refund()
+    {
+        return view('frontend.pages.refund');
+    }
+
 }

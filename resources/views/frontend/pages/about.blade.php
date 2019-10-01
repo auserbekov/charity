@@ -23,7 +23,7 @@
 				<div class="img img-about align-self-stretch" style="background-image: url(images/bg_3.jpg); width: 100%;"></div>
 			</div>
 			<div class="col-md-6 pl-md-5 ftco-animate">
-				<h2 class="mb-4">Welcome to Bibars - International Wildlife Charity Organization</h2>
+				<h2 class="mb-4">Welcome to Bibars - International Wildlife Charity Fund</h2>
 				<p>Bibars is an independent conservation organisation. Our mission is to create a world where people and wildlife can thrive together.</p>
         <p>To achieve our mission, we're finding ways to help transform the future for the world’s wildlife, rivers, forests and seas;</p>
         <p>We’re acting now to make this happen.</p>
@@ -71,52 +71,36 @@
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section ftco-animate text-center">
-        <h2 class="mb-4">Latest Donations</h2>
-        <p>Here we present our donators from all over the world. Thank you!</p>
+        <h2 class="mb-4">Organization Details</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
-        <div class="staff">
-          <div class="d-flex mb-4">
-            <div class="img" style="background-image: url(images/person_1.jpg);"></div>
-            <div class="info ml-4">
-              <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-              <span class="position">Donated just now</span>
-              <div class="text">
-                  <p>Donated <span>$300</span></p>
-                </div>
-            </div>
-          </div>
-        </div>
+      <div class="col-lg-4">
+        <h3 style="display: block">Bank details</h3>
+        <br>
+        <p>
+          <strong>Private Charity Fund "Bibars"</strong><br>
+          BIN 190940011996<br>
+          IBAN KZ9496516F0008989549 (KZ)<br>
+          IBAN KZ4896516F0008989601 (USD)<br>
+          IBAN KZ3796516F0008989605 (EUR)<br>
+          IRTYKZKA, AO Forte Bank<br>
+          BANK BIN: 050941000204<br>
+        </p>
       </div>
-      <div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
-        <div class="staff">
-          <div class="d-flex mb-4">
-            <div class="img" style="background-image: url(images/person_2.jpg);"></div>
-            <div class="info ml-4">
-              <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-              <span class="position">Donated 1 day ago</span>
-              <div class="text">
-                  <p>Donated <span>$150</span></p>
-                </div>
-            </div>
-          </div>
-        </div>
+      <div class="col-lg-4">
+        <h3>Government License</h3><br>
+        <img class="img-fluid" src="/images/gos_spravka.jpeg">
+        <p>&nbsp;</p>
       </div>
-      <div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
-        <div class="staff">
-          <div class="d-flex mb-4">
-            <div class="img" style="background-image: url(images/person_3.jpg);"></div>
-            <div class="info ml-4">
-              <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-              <span class="position">Donated 1 week ago</span>
-              <div class="text">
-                  <p>Donated <span>$250</span></p>
-                </div>
-            </div>
-          </div>
-        </div>
+      <div class="col-lg-4">
+        <h3>Contacts</h3>
+        <br>
+        <p>
+          Address: 13 house, Leonova street, Martobe district, Karatau raion, Shymkent city, 160032, Kazakhstan<br>
+          <br>
+          Director: Meiramov Askar Uteshovich
+        </p>
       </div>
     </div>
   </div>

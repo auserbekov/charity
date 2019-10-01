@@ -20,5 +20,10 @@ Route::get('/gallery', 'PagesController@gallery');
 Route::get('/events', 'PagesController@events');
 Route::get('/contacts', 'PagesController@contacts');
 
+Route::get('/privacy', 'PagesController@privacy');
+Route::get('/donation-offer', 'PagesController@donationOffer');
+Route::get('/refund', 'PagesController@refund');
+
+
 Route::get('/success', 'PagesController@success');
 Route::get('/failure', 'PagesController@failure');

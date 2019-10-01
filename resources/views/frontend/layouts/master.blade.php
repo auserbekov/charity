@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>@yield('title', 'Bibars - Charity Organization')</title>
+    <title>@yield('title', 'Bibars - Privaty Charity Fund')</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -102,10 +102,8 @@
               <ul class="list-unstyled">
                 <li><a href="/" class="py-2 d-block">Home</a></li>
                 <li><a href="/about" class="py-2 d-block">About</a></li>
-                <li><a href="/donate" class="py-2 d-block">Donate</a></li>
-                <li><a href="/causes" class="py-2 d-block">Causes</a></li>
-                <li><a href="/events" class="py-2 d-block">Event</a></li>
-                <li><a href="/blog" class="py-2 d-block">Blog</a></li>
+                <li><a href="/privacy" class="py-2 d-block">Privacy policy</a></li>
+                <li><a href="/donation-offer" class="py-2 d-block">Public Offer & Refund</a></li>
               </ul>
             </div>
           </div>
@@ -125,9 +123,10 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Bibars. 
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <p>
+              Bibars. Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+              Design by Colorlib.  
+            </p>
           </div>
         </div>
       </div>
