@@ -12,7 +12,7 @@
         <!-- <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Created by <a href="#">Colorlib.com</a></p> -->
 
         <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-          <a href="/donate" class="btn btn-warning btn-outline-white px-4 py-3 popup-vimeo">@lang('content.donate')</a>
+          <a href="/donate" class="btn btn-warning btn-outline-white px-4 py-3">@lang('content.donate')</a>
         </p>
       </div>
     </div>
