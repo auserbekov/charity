@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>@yield('title', 'Bibars - Privaty Charity Fund')</title>
+    <title>@yield('title', __('content.title'))</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -31,21 +31,36 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Bibars</a>
+      <a class="navbar-brand" href="/">@lang('content.bibars')</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
+        <span class="oi oi-menu"></span> @lang('content.menu')
       </button>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="/causes" class="nav-link">Causes</a></li>
-          <li class="nav-item"><a href="/donate" class="nav-link">Donate</a></li>
-          <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="/gallery" class="nav-link">Gallery</a></li>
-          <li class="nav-item"><a href="/events" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="/contacts" class="nav-link">Contact</a></li>
+          <li class="nav-item active"><a href="/" class="nav-link">@lang('content.home')</a></li>
+          <li class="nav-item"><a href="/about" class="nav-link">@lang('content.about')</a></li>
+          <li class="nav-item"><a href="/causes" class="nav-link">@lang('content.causes')</a></li>
+          <li class="nav-item"><a href="/donate" class="nav-link">@lang('content.donate')</a></li>
+          <li class="nav-item"><a href="/blog" class="nav-link">@lang('content.blog')</a></li>
+          <li class="nav-item"><a href="/gallery" class="nav-link">@lang('content.gallery')</a></li>
+          <li class="nav-item"><a href="/events" class="nav-link">@lang('content.events')</a></li>
+          <li class="nav-item"><a href="/contacts" class="nav-link">@lang('content.contacts')</a></li>
+
+
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarLangs" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              @lang('content.lang_switcher')
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarLangs">
+              <a class="dropdown-item" href="/lang/ru">Русский</a>
+              <a class="dropdown-item" href="/lang/en">English</a>
+              <!-- <div class="dropdown-divider"></div> -->
+            </div>
+
+
+          </li>
         </ul>
       </div>
     </div>
@@ -60,8 +75,8 @@
         <div class="row mb-5">
           <div class="col-md-3">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">About Us</h2>
-              <p>We are the International Foundation for the Support of Animals "Bibars" - an association of people who believe that we are able to help our smaller brothers.</p>
+              <h2 class="ftco-heading-2">@lang('content.about')</h2>
+              <p>@lang('content.about_us_text')</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -71,13 +86,13 @@
           </div>
           <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <h2 class="ftco-heading-2">@lang('content.recent_blog')</h2>
               <div class="block-21 mb-4 d-flex">
                 <a class="blog-img mr-4" style="background-image: url(images/news-1.jpg);"></a>
                 <div class="text">
-                  <h3 class="heading"><a href="#">Most humane country</a></h3>
+                  <h3 class="heading"><a href="#">@lang('content.most_humane_country')</a></h3>
                   <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sep 20, 2019</a></div>
+                    <div><a href="#"><span class="icon-calendar"></span> @lang('content.sep') 20, 2019</a></div>
                     <div><a href="#"><span class="icon-person"></span> Admin</a></div>
                     <div><a href="#"><span class="icon-chat"></span> 19</a></div>
                   </div>
@@ -86,9 +101,9 @@
               <div class="block-21 mb-4 d-flex">
                 <a class="blog-img mr-4" style="background-image: url(images/dog-2.jpg);"></a>
                 <div class="text">
-                  <h3 class="heading"><a href="#">Dogs know your face!</a></h3>
+                  <h3 class="heading"><a href="#">@lang('content.dogs_know_your_face')</a></h3>
                   <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sep 18, 2019</a></div>
+                    <div><a href="#"><span class="icon-calendar"></span> @lang('content.sep') 18, 2019</a></div>
                     <div><a href="#"><span class="icon-person"></span> Admin</a></div>
                     <div><a href="#"><span class="icon-chat"></span> 19</a></div>
                   </div>
@@ -98,23 +113,23 @@
           </div>
           <div class="col-md-2">
              <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Site Links</h2>
+              <h2 class="ftco-heading-2">@lang('content.site_links')</h2>
               <ul class="list-unstyled">
-                <li><a href="/" class="py-2 d-block">Home</a></li>
-                <li><a href="/about" class="py-2 d-block">About</a></li>
-                <li><a href="/privacy" class="py-2 d-block">Privacy policy</a></li>
-                <li><a href="/donation-offer" class="py-2 d-block">Public Offer & Refund</a></li>
+                <li><a href="/" class="py-2 d-block">@lang('content.home')</a></li>
+                <li><a href="/about" class="py-2 d-block">@lang('content.about')</a></li>
+                <li><a href="/privacy" class="py-2 d-block">@lang('content.privacy')</a></li>
+                <li><a href="/donation-offer" class="py-2 d-block">@lang('content.refund')</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md-3">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2">@lang('content.have_a_question')</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">SKO, Kazakhstan</span></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">@lang('content.address_text')</span></li>
 	                <!-- <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li> -->
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@bibars.kz</span></a></li>
+	                <li><a href="mailto:info@bibars.kz"><span class="icon icon-envelope"></span><span class="text">info@bibars.kz</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -124,8 +139,8 @@
           <div class="col-md-12 text-center">
 
             <p>
-              Bibars. Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-              Design by Colorlib.  
+              @lang('content.bibars'). Copyright &copy;<script>document.write(new Date().getFullYear());</script> @lang('content.rights_reserved')
+              @lang('content.designed_by')  
             </p>
           </div>
         </div>

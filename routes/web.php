@@ -27,3 +27,13 @@ Route::get('/refund', 'PagesController@refund');
 
 Route::get('/success', 'PagesController@success');
 Route::get('/failure', 'PagesController@failure');
+
+Route::get('/lang/{lang}', function($lang) {
+
+	if (array_key_exists($lang, \Config::get('languages'))) {
+		\Session::put('applocale', $lang);
+	}
+
+	return redirect()->back();
+
+});

@@ -8,8 +8,8 @@
   <div class="container">
     <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
       <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-         <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="/">Home</a></span> <span>About</span></p>
-        <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">About Us</h1>
+         <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="/">@lang('content.home')</a></span> <span>@lang('content.about')</span></p>
+        <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">@lang('content.about')</h1>
       </div>
     </div>
   </div>
@@ -23,11 +23,8 @@
 				<div class="img img-about align-self-stretch" style="background-image: url(images/bg_3.jpg); width: 100%;"></div>
 			</div>
 			<div class="col-md-6 pl-md-5 ftco-animate">
-				<h2 class="mb-4">Welcome to Bibars - International Wildlife Charity Fund</h2>
-				<p>Bibars is an independent conservation organisation. Our mission is to create a world where people and wildlife can thrive together.</p>
-        <p>To achieve our mission, we're finding ways to help transform the future for the world’s wildlife, rivers, forests and seas;</p>
-        <p>We’re acting now to make this happen.</p>
-        <p>We need your help to support those on the front line dealing with the threats</p>
+				<h2 class="mb-4">@lang('content.welcome')</h2>
+				@lang('content.welcome_text')
 			</div>
 		</div>
 	</div>
@@ -39,27 +36,27 @@
       <div class="col-md-5 d-flex justify-content-center counter-wrap ftco-animate">
         <div class="block-18 color-1 align-items-stretch">
           <div class="text">
-            <span>Saving animals</span>
+            <span>@lang('content.saving_animals')</span>
             <strong class="number" data-number="132805">0</strong>
-            <span>Animals in 190 countries in the world</span>
+            <span>@lang('content.animals_count', ['count' => 190])</span>
           </div>
         </div>
       </div>
       <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
         <div class="block-18 color-2 align-items-stretch">
           <div class="text">
-            <h3 class="mb-4">Donate Money</h3>
-            <p>Your gift doubled to save animals</p>
-            <p><a href="#" class="btn btn-white px-3 py-2 mt-2">Donate Now</a></p>
+            <h3 class="mb-4">@lang('content.donate_money')</h3>
+            <p>@lang('content.your_gift')</p>
+            <p><a href="#" class="btn btn-white px-3 py-2 mt-2">@lang('content.donate_now')</a></p>
           </div>
         </div>
       </div>
       <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
         <div class="block-18 color-3 align-items-stretch">
           <div class="text">
-            <h3 class="mb-4">Be a Volunteer</h3>
-            <p>Become a part of our big family</p>
-            <p><a href="#" class="btn btn-white px-3 py-2 mt-2">Be A Volunteer</a></p>
+            <h3 class="mb-4">@lang('content.be_a_volunteer')</h3>
+            <p>@lang('content.become_a_family')</p>
+            <p><a href="#" class="btn btn-white px-3 py-2 mt-2">@lang('content.be_a_volunteer')</a></p>
           </div>
         </div>
       </div>
@@ -71,15 +68,15 @@
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section ftco-animate text-center">
-        <h2 class="mb-4">Organization Details</h2>
+        <h2 class="mb-4">@lang('content.organization_details')</h2>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-4">
-        <h3 style="display: block">Bank details</h3>
+        <h3 style="display: block">@lang('content.bank_details')</h3>
         <br>
         <p>
-          <strong>Private Charity Fund "Bibars"</strong><br>
+          <strong>@lang('content.charity_name')</strong><br>
           BIN 190940011996<br>
           IBAN KZ9496516F0008989549 (KZ)<br>
           IBAN KZ4896516F0008989601 (USD)<br>
@@ -89,17 +86,17 @@
         </p>
       </div>
       <div class="col-lg-4">
-        <h3>Government License</h3><br>
+        <h3>@lang('content.government_license')</h3><br>
         <img class="img-fluid" src="/images/gos_spravka.jpeg">
         <p>&nbsp;</p>
       </div>
       <div class="col-lg-4">
-        <h3>Contacts</h3>
+        <h3>@lang('content.contacts')</h3>
         <br>
         <p>
-          Address: 13 house, Leonova street, Martobe district, Karatau raion, Shymkent city, 160032, Kazakhstan<br>
+          @lang('content.full_address')<br>
           <br>
-          Director: Meiramov Askar Uteshovich
+          @lang('content.director')
         </p>
       </div>
     </div>
