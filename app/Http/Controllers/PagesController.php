@@ -58,12 +58,14 @@ class PagesController extends Controller
 
     function privacy()
     {
-        return view('frontend.pages.privacy');
+        $lang = \App::getLocale();
+        return view('frontend.pages.privacy_' . $lang);
     }
 
     function donationOffer()
     {
-        return view('frontend.pages.donation-offer');
+        $lang = \App::getLocale();
+        return view('frontend.pages.donation-offer_' . $lang);
     }
 
     function refund()

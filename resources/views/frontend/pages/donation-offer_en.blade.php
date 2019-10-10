@@ -3,7 +3,7 @@
 
 @section('content')
 
-<div class="hero-wrap" style="background-image: url('images/horses.jpg');" data-stellar-background-ratio="0.5">
+	<div class="hero-wrap" style="background-image: url('images/horses.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -14,6 +14,10 @@
         </div>
       </div>
     </div>
+
+    <style type="text/css">
+    	strong { font-weight: bold; }
+    </style>
 
     
     <section class="ftco-section contact-section ftco-degree-bg">
