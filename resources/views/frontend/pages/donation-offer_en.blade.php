@@ -63,7 +63,7 @@
 
 			<p>4. Donation</p>
 
-			<p> 4.1. The donor is an organization or individual who provides donations or other resources on a non-profit basis for the purposes of the fund. </p>
+			<p> 4.1. The donor is an organization or individual who provides donations or other resources on a non-profit basis for the <a href="/about#goals">purposes</a> of the fund. </p>
 
 			<p>4.2. Donor activity, that is, the provision of gratuitous assistance to the fund. </p>
 
