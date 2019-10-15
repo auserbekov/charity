@@ -105,11 +105,27 @@
         <p>
           <strong>@lang('content.charity_name')</strong><br>
           BIN 190940011996<br>
-          IBAN KZ9496516F0008989549 (KZ)<br>
-          IBAN KZ4896516F0008989601 (USD)<br>
-          IBAN KZ3796516F0008989605 (EUR)<br>
-          IRTYKZKA, AO Forte Bank<br>
-          BANK BIN: 050941000204<br>
+          
+          <br>
+
+
+            <strong>Форте Банк</strong><br>
+
+                  IBAN KZ9496516F0008989549 (KZ)<br>
+                IBAN KZ4896516F0008989601 (USD)<br>
+                IBAN KZ3796516F0008989605 (EUR)<br>
+                IRTYKZKA, AO Forte Bank<br>
+                BANK BIN: 050941000204<br>
+            
+              <br>
+
+            <strong>Zagrebacka Banka</strong><br>
+
+            Бенефициар: BOD Capital Trust D.O.O.<br>
+            IBAN HR2623600001102618787 (EUR)<br>
+                ZABAHR2X, Zagrebacka Banka<br>
+                Labinskih Rudara 4, Labin, Croatia
+
         </p>
       </div>
       <div class="col-lg-4">
