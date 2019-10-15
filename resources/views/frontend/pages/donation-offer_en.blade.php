@@ -53,31 +53,37 @@
 
 			<p>3. The activities of the Fund</p>
 
-			<p>3.1. Charitable activities for the disinterested (free of charge or on preferential terms) transfer of property and money to citizens or legal entities, for the disinterested performance of work, the provision of services, and the provision of other support.</p>
+			<p>3.1. Collection of voluntary donations from individuals and legal entities to provide fund programs aimed at helping animals. Support for institutions and organizations involved in the treatment and rehabilitation of animals. Purchase of special equipment, raising funds for animal treatment and rehabilitation programs.</p>
 
-			<p>3.2. The fund does not conduct commercial activities and is not intended to make a profit.</p>
+			<p>3.2 Promotion of charity.</p>
 
-			<p>3.3. The Foundation publishes information on its work and reports on the results of its activities on the website bibars.kz.</p>
+			<p>3.3. The fund does not conduct commercial activities and is not intended to make a profit.</p>
+
+			<p>3.4. The Foundation publishes information on its work and reports on the results of its activities on the website bibars.kz.</p>
 
 			<p>4. Donation</p>
 
-			<p>4.1. The donor independently determines the amount of the amount of the voluntary donation and makes it by transferring funds to the Fund's bank account using any payment method specified on the website bibars.kz under the terms of this Agreement.</p>
+			<p> 4.1. The donor is an organization or individual who provides donations or other resources on a non-profit basis for the purposes of the fund. </p>
 
-			<p>4.2. The donor can make a one-time donation through the bank at the Fund's details, including the electronic payment system, by making a donation with a credit card or electronic cash (details on bibars.kz).</p>
+			<p>4.2. Donor activity, that is, the provision of gratuitous assistance to the fund. </p>
 
-			<p>4.2.1. The fact that the donation was transferred to the Fund’s account, including by sending an SMS message within the framework of the Fund’s projects, testifies to the full agreement of the Donor with the terms of this agreement.</p>
+			<p>4.3. The donor independently determines the amount of the amount of the voluntary donation and makes it by transferring funds to the Fund's bank account using any payment method specified on the website bibars.kz under the terms of this Agreement.</p>
 
-			<p>4.2.2. If the donor’s chosen method of transferring the donation involves the definition of “Purpose of payment”, the Donor of his choice indicates one of the following options:</p>
+			<p>4.4. The donor can make a one-time donation through the bank at the Fund's details, including the electronic payment system, by making a donation with a credit card or electronic cash (details on bibars.kz).</p>
+
+			<p>4.4.1. The fact that the donation was transferred to the Fund’s account, including by sending an SMS message within the framework of the Fund’s projects, testifies to the full agreement of the Donor with the terms of this agreement.</p>
+
+			<p>4.4.2. If the donor’s chosen method of transferring the donation involves the definition of “Purpose of payment”, the Donor of his choice indicates one of the following options:</p>
 
 			<p>Donation for _________________. VAT is not taxed (the surname and first name of the person whom the Donor wants to provide assistance is indicated);</p>
-			<p>Donation to the program ________________. VAT is not taxed (the name of one of the projects of the Fund to which the Donor wants to direct the funds is indicated);</p>
-			<p>Donation for the treatment of children. Not subject to VAT;</p>
-			<p>Donation for statutory activities. Not subject to VAT;</p>
-			<p>Donation. Not subject to VAT.</p>
+			<p>- Donation to the program ________________. VAT is not taxed (the name of one of the projects of the Fund to which the Donor wants to direct the funds is indicated);</p>
+			<p>- Donation for the treatment of children. Not subject to VAT;</p>
+			<p>- Donation for statutory activities. Not subject to VAT;</p>
+			<p>- Donation. Not subject to VAT.</p>
 
-			<p>4.2.3. When transferring a donation for the correct identification of the payer, the Donor indicates his contacts: email address and / or phone number.</p>
+			<p>4.4.3. When transferring a donation for the correct identification of the payer, the Donor indicates his contacts: email address and / or phone number.</p>
 
-			<p>4.2.4. The date of acceptance of the Offer and, accordingly, the date of conclusion of the Agreement is: the date of receipt of funds from the Donor to the Fund’s current account or, as appropriate, to the Fund’s account in the payment system; as well as the date of sending a short text message (SMS), or the date of receipt by authorized representatives of the Fund of funds from the box (box) for collecting donations.</p>
+			<p>4.4.4. The date of acceptance of the Offer and, accordingly, the date of conclusion of the Agreement is: the date of receipt of funds from the Donor to the Fund’s current account or, as appropriate, to the Fund’s account in the payment system; as well as the date of sending a short text message (SMS), or the date of receipt by authorized representatives of the Fund of funds from the box (box) for collecting donations.</p>
 
 			<p>Rights and obligations of the parties</p>
 
@@ -118,19 +124,29 @@
 			</p>
 
 			<p>
-				Bank details:<br>
+				Bank details:<br><br>
 
-				Private Charity Fund "Bibars"<br>
-
-				BIN 190940011996<br>
+	          	<strong>Forte Bank</strong><br>
 	          	IBAN KZ9496516F0008989549 (KZ)<br>
 		        IBAN KZ4896516F0008989601 (USD)<br>
 		        IBAN KZ3796516F0008989605 (EUR)<br>
 		        IRTYKZKA, AO Forte Bank<br>
 		        BANK BIN: 050941000204<br>
+		    
+		        <br>
+
+				<strong>Zagrebacka Banka</strong><br>
+
+				Бенефициар: BOD Capital Trust D.O.O.<br>
+				IBAN HR2623600001102618787 (EUR)<br>
+		        ZABAHR2X, Zagrebacka Banka<br>
+		        Labinskih Rudara 4, Labin, Croatia
+
 		    </p>
 
 		    <p>
+				<strong>Private Charity Fund "Bibars"</strong><br>
+				BIN 190940011996<br>
 				13 house, Leonova street, Martobe district, Karatau raion, Shymkent city, 160032, Kazakhstan
 			</p>
 

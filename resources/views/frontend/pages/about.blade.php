@@ -68,6 +68,33 @@
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section ftco-animate text-center">
+        <h2 class="mb-4"><a href="#goals">@lang('content.goals_and_tasks')</a></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <p>@lang('content.goal_1')</p>
+
+        <p>@lang('content.goal_2')</p>
+
+        <p>@lang('content.goal_3')</p>
+        
+        <p>@lang('content.goal_4')</p>
+        
+        <p>@lang('content.goal_5')</p>
+        
+        <p>@lang('content.goal_6')</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ftco-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 heading-section ftco-animate text-center">
         <h2 class="mb-4">@lang('content.organization_details')</h2>
       </div>
     </div>
